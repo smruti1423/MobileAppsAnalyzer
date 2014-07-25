@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.mobileanalyzer"
+    android:versionCode="12"
+    android:versionName="2.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.project.mobileanalyzer.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.project.mobileanalyzer.call_activity" />
+        <activity android:name="com.project.mobileanalyzer.text_activity" />
+        <activity android:name="com.project.mobileanalyzer.games_activity" />
+        <activity android:name="com.project.mobileanalyzer.others_activity" />
+        <activity android:name="com.project.mobileanalyzer.track_apps_list" />
+
+        <service
+            android:name="com.services.monitorApps.MonitorService"
+            android:process=":remote" />
+
+        <receiver
+            android:name="com.project.mobileanalyzer.ReceiverCall"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.project.mobileanalyzer" />
+                <action android:name="com.services.monitorApps" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

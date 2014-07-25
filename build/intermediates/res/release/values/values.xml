@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/D:/Workspaces/Android/MobileAnalyzer/res/values/list_data.xml -->
+    <eat-comment />
+
+    <string-array name="array_HomeData">
+        <item>Call Activities(2 hrs 50 mins)</item>
+        <item>Texting Activities(5 hrs 40 mins)</item>
+        <item>Games(2 hrs 15 mins)</item>
+        <item>Others(1 hr 30 mins)</item>
+    </string-array>
+    <!-- From: file:/D:/Workspaces/Android/MobileAnalyzer/res/values/dimens.xml -->
+    <eat-comment />
+
+    <dimen name="buttonMedium_size">15dp</dimen>
+    <dimen name="list_layout_topMargin">210dp</dimen>
+    <dimen name="main_layout_margins">20dp</dimen>
+    <dimen name="relative_margin_top">10dp</dimen>
+    <dimen name="relative_margin_top2">5dp</dimen>
+    <dimen name="time_notifier">45dp</dimen>
+    <dimen name="welcome_message">25dp</dimen>
+    <!-- From: file:/D:/Workspaces/Android/MobileAnalyzer/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="APP_LIST">applicationsAddedList</string>
+    <string name="APP_MONITOR">appsMonitoredList</string>
+    <string name="AppAddMsg">Application Added Successfully</string>
+    <string name="AppsAddMsg">Applications Added Successfully</string>
+    <string name="AppsNegValidation">Please Select the applications below before you want to add for tracking</string>
+    <string name="Incoming_Calls">Incoming Calls</string>
+    <string name="Incoming_Calls_time">1 hr 05 mins</string>
+    <string name="Outgoing_Calls">Outgoing Calls</string>
+    <string name="Outgoing_Calls_time">1 hr 45 mins</string>
+    <string name="Untrack_Text">Are you sure you want to untrack the %s ?</string>
+    <string name="Untrack_Title">Untrack Applications</string>
+    <string name="analysisMessage">Time you spent on the below each of the tracked Apps</string>
+    <string name="analysisMessageCategories">Time you spent on below activities</string>
+    <string name="app_name">Mobile Analyzer</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnSelectAll">Select All</string>
+    <string name="btnUnSelectAll">UnSelect All</string>
+    <string name="chrome">Chrome</string>
+    <string name="chrome_time">15 mins</string>
+    <string name="email_messages_time">1 hr 40 mins</string>
+    <string name="emails">Emails</string>
+    <string name="emptyList">No Applications have been yet added for tracking, please select menu and choose the applications for tracking</string>
+    <string name="facebook">Facebook</string>
+    <string name="facebook_time">20 mins</string>
+    <string name="gallery">Gallery</string>
+    <string name="gallery_time">10 mins</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hill_climb">Hill Climb</string>
+    <string name="hill_climb_time">35 mins</string>
+    <string name="menu_option1">Track Apps</string>
+    <string name="music">Music Player</string>
+    <string name="music_time">30 mins</string>
+    <string name="phone">Phone Messages</string>
+    <string name="phone_messages_time">45 mins</string>
+    <string name="real_racing">Real Racing 3</string>
+    <string name="real_racing_time">1 hr 10 mins</string>
+    <string name="skype">Skype</string>
+    <string name="skype_time">15 mins</string>
+    <string name="temple_run">Temple Run</string>
+    <string name="temple_run_time">30 mins</string>
+    <string name="timeFormat">HH:MM:Sec</string>
+    <string name="timeSpent">12:15:45</string>
+    <string name="totalCalls">Call Activities(2 hrs 50 mins)</string>
+    <string name="totalCalls_time">02:50:30</string>
+    <string name="totalGames">Games(2 hrs 15 mins)</string>
+    <string name="totalGames_time">02:15:24</string>
+    <string name="totalOthers">Others(1 hr 30 mins)</string>
+    <string name="totalOthers_time">01:30:14</string>
+    <string name="totalTexting">Texting Activities(5 hrs 40 mins)</string>
+    <string name="totalTexting_time">05:40:10</string>
+    <string name="trackHeaderText">Select the applications from the below list for which you would like track the usage time and click on add</string>
+    <string name="watsapp">WhatsApp</string>
+    <string name="watsapp_messages_time">2 hrs 55 mins</string>
+    <string name="welcomeMessage">Hello User!! Today total time you spend on your device is</string>
+    <string name="welcomeMessageAlt">Hello User!!</string>
+    <!-- From: file:/D:/Workspaces/Android/MobileAnalyzer/res/values/styles.xml -->
+    <eat-comment />
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+</resources>
